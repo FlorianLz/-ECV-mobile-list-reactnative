@@ -1,14 +1,18 @@
 import React, { PropsWithChildren } from "react";
-import { StyleSheet, Text, Image, View, Button, TouchableOpacity, Pressable } from "react-native";
+import { StyleSheet, Text, Image, Pressable } from "react-native";
 type Character = {
     name: string,
-    image: string
+    image: string,
+    id: number,
+    nbLikes: number
 }
 const styles = StyleSheet.create({
     item: {
       padding: 10,
       fontSize: 18,
       height: 44,
+      maxWidth: '50%'
+
     },
     image: {
         width: 100,
@@ -33,6 +37,7 @@ export default function CharacterCard({character, navigation}: PropsWithChildren
                     });
                   }}>
             <Text style={styles.item}>{character.name}</Text>
+            {character.nbLikes >= 0 ? <Text>{character.nbLikes} likes</Text> : null}
             <Image style={styles.image} source={{uri: character.image}} />
         </Pressable>
     </>

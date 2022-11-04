@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "549534150514",
+    "firebase_url": "https://ecv-mobile-list-flutter-default-rtdb.firebaseio.com",
+    "project_id": "ecv-mobile-list-flutter",
+    "storage_bucket": "ecv-mobile-list-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549534150514:android:c948d7f9d7ca03aad437eb",
+        "android_client_info": {
+          "package_name": "com.ecv_mobile_list_reactnative"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549534150514-hfc0s73gujpr0ov3prqnpi9gtvbumfjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmxTMxtUkFIB-R3LyI2n--UojLk2dM1Rk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549534150514-hfc0s73gujpr0ov3prqnpi9gtvbumfjd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "549534150514-t5c4ilp9r4at1ksaj7n7smaoai4jdc76.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ecvMobileListFlutter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549534150514:android:a70f17ae1a8b50bcd437eb",
+        "android_client_info": {
+          "package_name": "com.example.ecv_mobile_list_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549534150514-hfc0s73gujpr0ov3prqnpi9gtvbumfjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmxTMxtUkFIB-R3LyI2n--UojLk2dM1Rk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549534150514-hfc0s73gujpr0ov3prqnpi9gtvbumfjd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "549534150514-t5c4ilp9r4at1ksaj7n7smaoai4jdc76.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ecvMobileListFlutter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
